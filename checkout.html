@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro||home</title>
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- navber html start  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/Framelogo.png" alt="framelogo" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+            
+            <div class="d-flex gap-3">
+              <a href="#" class="icon"><img src="img/alert-outline.png" alt="alart-icon"></a>
+              <a href="#" class="icon"><img src="img/search.png" alt="search-icon"></a>
+              <a href="#" class="icon"><img src="img/akar-icons_heart.png" alt="heart-ico"></a>
+              <a href="cart.html" class="icon"><img src="img/Vector.png" alt="cart"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navber html End -->
+
+
+    <!-- checkout part html start  -->
+
+    <section class="checkout-banner">
+        
+    </section>
+    <!-- checkout part html End -->
+
+
+    <!-- Billing details part html start  -->
+
+    <section class="billing-area">
+        <div class="container">
+            <div class="billing-part">
+                <div class="billing-form">
+                    <h2 class="biling-heading">Billing details</h2>
+                    <div class="fast-input">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" >
+                        </div>
+                        
+                    </div>
+                    <label for="Company Name (Optional)">Company Name (Optional)</label>
+                    <input type="text">
+
+                    <label for="Country / Region">Country / Region</label>
+                    <select id="country-select">
+                        <option value="">Select a country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="GB">United Kingdom</option>
+                        <!-- Add more countries here -->
+                    </select>
+                    <label for="Street address">Street address</label>
+                    <input type="text">
+                    <label for="Town / City">Town / City</label>
+                    <input type="text">
+                    <label for="Province">Province</label>
+                   <select id="country-select">
+                        <option value="">Western Province</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="GB">United Kingdom</option>
+                        <!-- Add more countries here -->
+                    </select>
+
+                    <label for="ZIP code">ZIP code</label>
+                    <input type="text" id="zip_code" name="zip_code" pattern="\d{5}" placeholder="e.g., 12345" required>
+
+                    <label for="Phone">Phone</label>
+                    <input type="tel">
+                    <label for="Email address">Email address</label>
+                    <input type="mail">
+                    <input type="text" placeholder="Additional information">
+                </div>
+
+                <div class="product-summary">
+                    <div class="text-billing">
+                        <div class="summary-text1">
+                            <h4 class="summary-p">
+                                Product
+                            </h4>
+                            <p class="summry-quantity">
+                                Asgaard sofa x 1
+                            </p>
+                            <p class="summry-sub">
+                                Subtotal
+                            </p>
+                            <p class="summry-sub">
+                                Total
+                            </p>
+                            
+                        </div>
+                        <div class="summary-text2">
+                            <h4 class="summary-p">
+                                Subtotal
+                            </h4>
+                            <p class="summry-quantity">
+                                Rs. 250,000.00
+                            </p>
+                            <p class="summry-sub">
+                                Rs. 250,000.00
+                            </p>
+                            <p class="summry-sub">
+                                Rs. 250,000.00
+                            </p>
+                            
+                        </div>
+                         
+                    </div>
+                    <hr class="checkout-hr">
+                    <div class="payment-section">
+                        <label class="radio-container">
+                            <input type="radio" name="payment" checked>
+                            <span class="custom-radio"></span>
+                            <strong>Direct Bank Transfer</strong>
+                        </label>
+                        <p class="payment-description">
+                            Make your payment directly into our bank account. Please use your Order ID as the payment reference. 
+                            Your order will not be shipped until the funds have cleared in our account.
+                        </p>
+                        
+                        <label class="radio-container">
+                            <input type="radio" name="payment">
+                            <span class="custom-radio"></span>
+                            Direct Bank Transfer
+                        </label>
+                    
+                        <label class="radio-container">
+                            <input type="radio" name="payment">
+                            <span class="custom-radio"></span>
+                            Cash On Delivery
+                        </label>
+                    
+                        <p class="policy-text">
+                            Your personal data will be used to support your experience throughout this website, 
+                            to manage access to your account, and for other purposes described in our 
+                            <strong class="policy-link">privacy policy</strong>.
+                        </p>
+                    </div>
+                    <div class="oderplece-button">
+                        <a href="oderece.html">Place order</a>
+                    </div>
+                    
+                </div>
+                
+               
+            </div>
+        </div>
+    </section>
+    <!-- Billing details part html End -->
+    <section class="product-frature-area">
+        <div class="container">
+          <div class="product-feature">
+            <div class="p-feature-item">
+              <img src="img/Frame 5.png" alt="High Qualitye">
+            </div>
+            <div class="p-feature-item">
+              <img src="img/Frame 19.png" alt="Warranty Protection">
+            </div>
+            <div class="p-feature-item">
+              <img src="img/Frame 2.png" alt="Free Shipping">
+            </div>
+            <div class="p-feature-item">
+              <img src="img/Frame 4.png" alt="24 / 7 Support">
+            </div>
+          </div>
+        </div>
+      </section>
+  <hr>
+
+       <!-- footer html start  -->
+       <footer class="footer-area">
+        <div class="container">
+          <div class="footer-section">
+            <div class="footer-text">
+              <h6 class="footer-logo">
+                Funiro.
+              </h6>
+              <p class="f-discription">
+                400 University Drive Suite 200 <br>Coral Gables,FL 33134 USA
+              </p>
+            </div>
+            <div class="Footer-link">
+              <p class="link-tittle">Link</p>
+              <a href="#" class="footer-link">Home</a>
+              <a href="#" class="footer-link">Shop</a>
+              <a href="#" class="footer-link">About</a>
+              <a href="#" class="footer-link">Contact</a>
+            </div>
+            <div class="help-section">
+              <p class="help-tittle">Help</p>
+              <a href="#" class="help-link">Payment Options</a>
+              <a href="#" class="help-link">Returns</a>
+              <a href="#" class="help-link">Payment Options</a>
+            </div>
+            <div class="newsletter">
+              <p class="new-text">Newsletter</p>
+              <div class="box">
+                <input type="email" placeholder="Enter Your Email Address ">
+              <a href="#" class="sub">SUBSCRIBE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </footer>
+      <!-- footer html End -->
